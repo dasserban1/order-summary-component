@@ -11,22 +11,25 @@ body{
     background-size: contain;
     margin: 0;
     padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
 }
 
 .card{
-    margin: 5% auto;
-    width: 350px;
+    max-width: 27em;
     background-color: #fff;
-    border-radius: 25px;
+    border-radius: 1.5625em;
 }
 
 .card-image img{
     max-width: 100%;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
+    border-top-right-radius: 1.5625em;
+    border-top-left-radius: 1.5625em;
 }
 .card-content{
-    padding: 20px;
+    padding: 1.5625em;
 }
 .card-text{
     text-align: center;
@@ -43,15 +46,15 @@ body{
     align-items: center;
     justify-content: center;
     background-color: hsl(225, 100%, 98%);
-    height: 80px;
+    height: 5em;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
 }
 .prices-plan{
     display: flex;
     flex-direction: column;
-    padding-left: 25px;
-    padding-right: 50px;
+    padding-left: 3.125em;
+    padding-right: 3.125em;
 }
 .annual-plan{
     font-weight: 900;
@@ -70,18 +73,18 @@ body{
     width: 100%;
     background-color: hsl(245, 75%, 52%);
     color: #fff;
-    height: 40px;
+    height: 3.5em;
     cursor: pointer;
     border: none;
     border-radius: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.5em;
 }
 .link-cancel{
     display: inline-block;
     text-decoration: none;
     color: hsl(224, 23%, 55%);
-    padding-bottom: 20px;
+    padding-bottom: 1.5em;
 }
 .link-change:hover{
     color: hsl(224, 23%, 55%);
