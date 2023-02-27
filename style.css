@@ -19,10 +19,14 @@ body{
     background-color: #fff;
     border-radius: 25px;
 }
+
 .card-image img{
     max-width: 100%;
     border-top-right-radius: 25px;
     border-top-left-radius: 25px;
+}
+.card-content{
+    padding: 20px;
 }
 .card-text{
     text-align: center;
@@ -35,13 +39,13 @@ body{
     color:  hsl(224, 23%, 55%);
 }
 .card-pricing{
-    margin:20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: hsl(225, 100%, 98%);
     height: 80px;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 .prices-plan{
     display: flex;
@@ -63,8 +67,7 @@ body{
 }
 .btn-payment{
     display: inline-block;
-    margin: 20px;
-    width: 89%;
+    width: 100%;
     background-color: hsl(245, 75%, 52%);
     color: #fff;
     height: 40px;
@@ -72,12 +75,12 @@ body{
     border: none;
     border-radius: 10px;
     text-align: center;
+    margin-bottom: 20px;
 }
 .link-cancel{
     display: inline-block;
     text-decoration: none;
     color: hsl(224, 23%, 55%);
-    font-weight: 700;
     padding-bottom: 20px;
 }
 .link-change:hover{
