@@ -18,7 +18,7 @@ body{
 }
 
 .card{
-    max-width: 27em;
+    max-width: 27em; /*  use em or percentage for responsive design*/
     background-color: #fff;
     border-radius: 1.5625em;
 }
@@ -29,7 +29,7 @@ body{
     border-top-left-radius: 1.5625em;
 }
 .card-content{
-    padding: 1.5625em;
+    padding: 1.5625em; /* same here use em for margin and padding for responsive */
 }
 .card-text{
     text-align: center;
